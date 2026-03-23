@@ -1,36 +1,39 @@
-# 🎓 GradePredictor - Student Performance Prediction System
+# 🎓 GradePredictor
 
-A machine learning project that predicts student final grades (G3) and pass/fail outcomes using demographic, social, and academic data.
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
+[![Flask](https://img.shields.io/badge/Flask-3.0+-green.svg)](https://flask.palletsprojects.com)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-orange.svg)](https://scikit-learn.org)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
----
+&gt; AI-powered student performance prediction system using Machine Learning
 
-## 📊 Project Overview
+![Demo Screenshot](https://via.placeholder.com/800x400/6366f1/ffffff?text=GradePredictor+Demo)
 
-| Aspect | Details |
-|--------|---------|
-| **Task** | Regression (Grade 0-20) + Classification (Pass/Fail) |
-| **Algorithm** | Random Forest |
-| **Dataset** | UCI Student Performance (395 students, 33 features) |
-| **Accuracy** | ~87-90% classification, R² ~0.85-0.88 regression |
-| **Framework** | scikit-learn, pandas, numpy |
+## 🌟 Features
 
----
+- 🔮 **Dual Prediction**: Predicts exact grade (0-20) AND pass/fail probability
+- 🌐 **Web Interface**: Beautiful, responsive UI built with Flask
+- 📊 **ML Models**: Random Forest for high accuracy
+- ⚡ **Quick Demo**: 3 preset student profiles for instant testing
+- 📱 **Mobile Friendly**: Works on all devices
+- 💡 **Smart Insights**: Risk assessment and recommendations
 
-## 🗂️ Project Structure
-
-
----
-
-## 🚀 Quick Start
-
-### 1. Setup Environment
+## 🚀 Live Demo
 
 ```bash
-# Create virtual environment
-python -m venv venv
+# Clone repository
+git clone https://github.com/YOUR_USERNAME/GradePredictor.git
+cd GradePredictor
 
-# Activate (Windows)
-venv\Scripts\activate
+# Setup environment
+python -m venv venv
+venv\Scripts\activate  # Windows
+source venv/bin/activate  # Mac/Linux
 
 # Install dependencies
 pip install -r requirements.txt
+
+# Run application
+python api.py
+
+# Open http://127.0.0.1:5000 in browser
