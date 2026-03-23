@@ -22,7 +22,7 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/GradePredictor.git
+git clone https://github.com/Madankk-06/GradePredictor.git
 cd GradePredictor
 
 # Setup environment
